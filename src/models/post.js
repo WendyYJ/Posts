@@ -1,4 +1,4 @@
-const posts = [];
+const posts = [{id:0,author:"yu",content:"test"}];
 let id = 0;
 
 
