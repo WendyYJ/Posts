@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"pm2-runtime start ecosystem.config.js --env production",
-    "stop":"pm2 stop 0",
+    "start": "pm2-runtime start ecosystem.config.js --env production",
+    "stop": "pm2 stop index",
     "dev": "nodemon src/index.js"
   },
   "author": "",
@@ -18,5 +18,8 @@
     "helmet": "^3.21.2",
     "morgan": "^1.9.1",
     "pm2": "^4.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
